@@ -1,0 +1,22 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.6.RELEASE'
+	id 'java'
+	id 'net.saliman.cobertura' version '2.6.1'
+	
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'co.com.bancolombia'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	 testRuntime "org.slf4j:slf4j-api:1.7.10"
+}
