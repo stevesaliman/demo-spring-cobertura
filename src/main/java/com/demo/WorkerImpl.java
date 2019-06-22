@@ -1,5 +1,6 @@
 package com.demo;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -26,4 +27,11 @@ public class WorkerImpl implements Worker {
 			System.out.println("Better luck next time");
 		}
 	}
+
+	// Uncomment me if you want to see Cobertura complain
+//	public static int myMethod(String[] args) {
+//		System.out.println("Started");
+//		return 1;
+//	}
+
 }
