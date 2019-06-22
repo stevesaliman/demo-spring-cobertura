@@ -13,4 +13,5 @@ public class DemoSpringCoberturaApplicationTests {
 	public void contextLoads() {
 	}
 
+
 }
